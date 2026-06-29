@@ -1,19 +1,19 @@
-// DARK MODE TOGGLE
+// DARK MODE
 const toggle = document.getElementById("darkToggle");
 
 toggle.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
 
-// SIMPLE SEARCH FUNCTION
+// SEARCH
 const searchInput = document.querySelector(".navbar input");
 const cards = document.querySelectorAll(".card");
 
-searchInput.addEventListener("keyup", () => {
-  let value = searchInput.value.toLowerCase();
+searchInput.addEventListener("input", () => {
+  const value = searchInput.value.toLowerCase();
 
   cards.forEach(card => {
-    let text = card.textContent.toLowerCase();
+    const text = card.textContent.toLowerCase();
 
     if (text.includes(value)) {
       card.style.display = "block";
