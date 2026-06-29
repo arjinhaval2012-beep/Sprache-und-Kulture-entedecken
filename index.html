@@ -1,65 +1,69 @@
-```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprache und Kultur entdecken</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sprache und Kultur entdecken</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
 
-<header class="hero">
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">📘 Sprache & Kultur</div>
 
-    <img src="image.png" alt="Sprache und Kultur entdecken" class="cover">
+  <nav>
+    <a href="#">Startseite</a>
+    <a href="#einheiten">Einheiten</a>
+    <a href="#">Über das Buch</a>
+    <a href="#">Kontakt</a>
+  </nav>
 
-    <h1>Sprache und Kultur entdecken</h1>
-
-    <p class="subtitle">
-        Deutsch lernen • Kultur verstehen • A1–A2
-    </p>
-
+  <div class="right">
+    <input type="text" placeholder="Suchen..." />
+    <button id="darkToggle">🌙</button>
+  </div>
 </header>
 
-<main>
+<!-- HERO -->
+<section class="hero">
+  <img src="image.png" alt="Cover"/>
 
-<section class="units">
-
-<h2>Alle Einheiten</h2>
-
-<div class="cards">
-
-<a href="units/einheit1.html" class="card">📖 Einheit 1</a>
-<a href="units/einheit2.html" class="card">📖 Einheit 2</a>
-<a href="units/einheit3.html" class="card">📖 Einheit 3</a>
-<a href="units/einheit4.html" class="card">📖 Einheit 4</a>
-<a href="units/einheit5.html" class="card">📖 Einheit 5</a>
-<a href="units/einheit6.html" class="card">📖 Einheit 6</a>
-<a href="units/einheit7.html" class="card">📖 Einheit 7</a>
-<a href="units/einheit8.html" class="card">📖 Einheit 8</a>
-<a href="units/einheit9.html" class="card">📖 Einheit 9</a>
-<a href="units/einheit10.html" class="card">📖 Einheit 10</a>
-<a href="units/einheit11.html" class="card">📖 Einheit 11</a>
-<a href="units/einheit12.html" class="card">📖 Einheit 12</a>
-
-</div>
-
+  <div class="hero-text">
+    <h1>Sprache und Kultur entdecken</h1>
+    <p>A1–A2 • Für Anfänger</p>
+  </div>
 </section>
 
-</main>
+<!-- UNITS -->
+<section id="einheiten" class="units">
+  <h2>📚 Alle Einheiten</h2>
+
+  <div class="grid">
+
+    <a href="units/einheit1.html" class="card">Einheit 1</a>
+    <a href="units/einheit2.html" class="card">Einheit 2</a>
+    <a href="units/einheit3.html" class="card">Einheit 3</a>
+    <a href="units/einheit4.html" class="card">Einheit 4</a>
+    <a href="units/einheit5.html" class="card">Einheit 5</a>
+    <a href="units/einheit6.html" class="card">Einheit 6</a>
+    <a href="units/einheit7.html" class="card">Einheit 7</a>
+    <a href="units/einheit8.html" class="card">Einheit 8</a>
+    <a href="units/einheit9.html" class="card">Einheit 9</a>
+    <a href="units/einheit10.html" class="card">Einheit 10</a>
+    <a href="units/einheit11.html" class="card">Einheit 11</a>
+    <a href="units/einheit12.html" class="card">Einheit 12</a>
+
+  </div>
+</section>
 
 <footer>
-
-<p>
-© 2026 Sprache und Kultur entdecken
-</p>
-
+  <p>© 2026 Arjin Talway</p>
 </footer>
 
 <script src="script.js"></script>
 
 </body>
 </html>
-```
