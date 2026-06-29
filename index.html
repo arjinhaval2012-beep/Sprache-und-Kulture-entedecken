@@ -1,101 +1,64 @@
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sprache und Kultur entdecken</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprache und Kultur entdecken</title>
 
-<style>
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#f4f4f4;
-}
-
-header{
-    text-align:center;
-    background:white;
-    padding:30px;
-}
-
-header img{
-    width:300px;
-    max-width:90%;
-    border-radius:15px;
-    box-shadow:0 10px 25px rgba(0,0,0,.2);
-}
-
-h1{
-    color:#0b3d91;
-}
-
-.grid{
-    width:90%;
-    max-width:1000px;
-    margin:40px auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    text-align:center;
-    text-decoration:none;
-    color:#222;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-5px);
-}
-
-footer{
-    text-align:center;
-    padding:30px;
-}
-</style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<header class="hero">
 
-<img src="image.png" alt="Book Cover">
+    <img src="image.png" alt="Sprache und Kultur entdecken" class="cover">
 
-<h1>Sprache und Kultur entdecken</h1>
+    <h1>Sprache und Kultur entdecken</h1>
 
-<p>A1–A2 | Für Anfänger</p>
+    <p class="subtitle">
+        Deutsch lernen • Kultur verstehen • A1–A2
+    </p>
 
 </header>
 
-<div class="grid">
+<main>
 
-<a class="card" href="#">📖 Einheit 1</a>
-<a class="card" href="#">📖 Einheit 2</a>
-<a class="card" href="#">📖 Einheit 3</a>
-<a class="card" href="#">📖 Einheit 4</a>
-<a class="card" href="#">📖 Einheit 5</a>
-<a class="card" href="#">📖 Einheit 6</a>
-<a class="card" href="#">📖 Einheit 7</a>
-<a class="card" href="#">📖 Einheit 8</a>
-<a class="card" href="#">📖 Einheit 9</a>
-<a class="card" href="#">📖 Einheit 10</a>
-<a class="card" href="#">📖 Einheit 11</a>
-<a class="card" href="#">📖 Einheit 12</a>
+<section class="units">
+
+<h2>Alle Einheiten</h2>
+
+<div class="cards">
+
+<a href="units/einheit1.html" class="card">📖 Einheit 1</a>
+<a href="units/einheit2.html" class="card">📖 Einheit 2</a>
+<a href="units/einheit3.html" class="card">📖 Einheit 3</a>
+<a href="units/einheit4.html" class="card">📖 Einheit 4</a>
+<a href="units/einheit5.html" class="card">📖 Einheit 5</a>
+<a href="units/einheit6.html" class="card">📖 Einheit 6</a>
+<a href="units/einheit7.html" class="card">📖 Einheit 7</a>
+<a href="units/einheit8.html" class="card">📖 Einheit 8</a>
+<a href="units/einheit9.html" class="card">📖 Einheit 9</a>
+<a href="units/einheit10.html" class="card">📖 Einheit 10</a>
+<a href="units/einheit11.html" class="card">📖 Einheit 11</a>
+<a href="units/einheit12.html" class="card">📖 Einheit 12</a>
 
 </div>
 
+</section>
+
+</main>
+
 <footer>
 
-© Arjin Talway
+<p>
+© 2026 Sprache und Kultur entdecken
+</p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
