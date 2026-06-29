@@ -1,1 +1,111 @@
+```css
+/* ===== Allgemein ===== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+    color:#222;
+    line-height:1.6;
+}
+
+/* ===== Kopfbereich ===== */
+
+.hero{
+    background:linear-gradient(135deg,#0b4f9c,#1b7c4a);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.cover{
+    width:260px;
+    max-width:90%;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-size:2.7rem;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    opacity:.95;
+}
+
+/* ===== Einheiten ===== */
+
+.units{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.units h2{
+    text-align:center;
+    margin-bottom:35px;
+    color:#0b4f9c;
+    font-size:2rem;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    text-decoration:none;
+    color:#222;
+    text-align:center;
+    padding:30px;
+    border-radius:18px;
+    font-size:1.2rem;
+    font-weight:bold;
+    transition:.3s;
+    box-shadow:0 6px 18px rgba(0,0,0,.12);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    background:#0b4f9c;
+    color:white;
+}
+
+/* ===== Fußzeile ===== */
+
+footer{
+    background:#0b4f9c;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:60px;
+}
+
+/* ===== Handy ===== */
+
+@media(max-width:700px){
+
+.hero h1{
+    font-size:2rem;
+}
+
+.subtitle{
+    font-size:1rem;
+}
+
+.card{
+    padding:22px;
+}
+
+}
+```
